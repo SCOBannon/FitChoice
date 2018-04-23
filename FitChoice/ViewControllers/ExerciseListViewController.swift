@@ -10,7 +10,10 @@ import UIKit
 
 class ExerciseListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var selectedMuscle: String = "Abs"
+    let backgroundGray = UIColor(red: 186/255, green: 186/255, blue: 186/255, alpha: 1)
+    let textGray = UIColor(red: 38/255, green: 82/255, blue: 110/255, alpha: 1)
+    
+    var selectedMuscle: String = "Loading Exercise Name..."
     var url: String = "https://www.acefitness.org/education-and-resources/lifestyle/exercise-library/body-part/abs/page/"
     var scraper: ListScraper?
     
@@ -69,6 +72,8 @@ class ExerciseListViewController: UIViewController, UITableViewDelegate, UITable
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let newCell = UITableViewCell()
+        newCell.backgroundColor = backgroundGray
+        newCell.textLabel?.textColor = textGray
         newCell.textLabel?.font = UIFont(name: "helvetica neue", size: 20.0)
         newCell.textLabel?.textAlignment = .left
         newCell.textLabel?.adjustsFontSizeToFitWidth = true

@@ -248,7 +248,7 @@ class ExerciseScraper {
             let imageData:NSData = NSData(contentsOf: URL(string: self.image!)!)!
             let image = UIImage(data: imageData as Data)
             self.view.exerciseImage.image = image
-            self.view.exerciseImage.contentMode = UIViewContentMode.scaleAspectFit
+            self.view.exerciseImage.contentMode = UIViewContentMode.scaleAspectFill
             
             self.view.infoLabel.text = self.name
             self.view.infoLabel.adjustsFontSizeToFitWidth = true

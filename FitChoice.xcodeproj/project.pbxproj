@@ -20,8 +20,8 @@
 		EC4540702059A8CD003AAD7D /* ExerciseInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45406B2059A8CB003AAD7D /* ExerciseInfoViewController.swift */; };
 		EC4540712059A8CD003AAD7D /* ExerciseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45406C2059A8CC003AAD7D /* ExerciseListViewController.swift */; };
 		EC4540722059A8CD003AAD7D /* MuscleDiagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45406D2059A8CC003AAD7D /* MuscleDiagramViewController.swift */; };
-		EC4540732059A8CD003AAD7D /* NutritionStandardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45406E2059A8CC003AAD7D /* NutritionStandardsViewController.swift */; };
 		EC4540742059A8CD003AAD7D /* FitnessGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45406F2059A8CD003AAD7D /* FitnessGoalsViewController.swift */; };
+		EC842856208E4B9F00ABF571 /* GoalInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC842855208E4B9E00ABF571 /* GoalInputViewController.swift */; };
 		ECE6F2D42060297F005E38DC /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE6F2D32060297F005E38DC /* Goals.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,8 +62,8 @@
 		EC45406B2059A8CB003AAD7D /* ExerciseInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseInfoViewController.swift; sourceTree = "<group>"; };
 		EC45406C2059A8CC003AAD7D /* ExerciseListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseListViewController.swift; sourceTree = "<group>"; };
 		EC45406D2059A8CC003AAD7D /* MuscleDiagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuscleDiagramViewController.swift; sourceTree = "<group>"; };
-		EC45406E2059A8CC003AAD7D /* NutritionStandardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionStandardsViewController.swift; sourceTree = "<group>"; };
 		EC45406F2059A8CD003AAD7D /* FitnessGoalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessGoalsViewController.swift; sourceTree = "<group>"; };
+		EC842855208E4B9E00ABF571 /* GoalInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalInputViewController.swift; sourceTree = "<group>"; };
 		ECE6F2D32060297F005E38DC /* Goals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,8 +151,8 @@
 			children = (
 				EC4540352059A74A003AAD7D /* ViewController.swift */,
 				EC45406F2059A8CD003AAD7D /* FitnessGoalsViewController.swift */,
+				EC842855208E4B9E00ABF571 /* GoalInputViewController.swift */,
 				EC45406D2059A8CC003AAD7D /* MuscleDiagramViewController.swift */,
-				EC45406E2059A8CC003AAD7D /* NutritionStandardsViewController.swift */,
 				EC45406C2059A8CC003AAD7D /* ExerciseListViewController.swift */,
 				EC45406B2059A8CB003AAD7D /* ExerciseInfoViewController.swift */,
 			);
@@ -306,7 +306,7 @@
 				EC4540362059A74A003AAD7D /* ViewController.swift in Sources */,
 				EC4540722059A8CD003AAD7D /* MuscleDiagramViewController.swift in Sources */,
 				EC45406A2059A886003AAD7D /* CustomSegues.swift in Sources */,
-				EC4540732059A8CD003AAD7D /* NutritionStandardsViewController.swift in Sources */,
+				EC842856208E4B9F00ABF571 /* GoalInputViewController.swift in Sources */,
 				ECE6F2D42060297F005E38DC /* Goals.swift in Sources */,
 				EC4540342059A74A003AAD7D /* AppDelegate.swift in Sources */,
 				EC4540702059A8CD003AAD7D /* ExerciseInfoViewController.swift in Sources */,
